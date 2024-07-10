@@ -27,6 +27,10 @@ public final class EndpointURI {
     public static final String CHANGE_PASSWORD = USER + SLASH + "changePassword";
     public static final String IS_FORGOT_PASSWORD_OTP_VALID =
             USER + SLASH + "otp" + SLASH + "isValid" + SLASH + "{otp}";
+
+    //CSV
+    public static final String CSV_DOWNLOAD = USER + SLASH + "csvDownload";
+    public static final String CSV_UPLOAD = USER + SLASH + "csvUpload";
     private EndpointURI() {
     }
 }
